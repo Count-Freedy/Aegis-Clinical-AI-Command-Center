@@ -1,0 +1,22 @@
+How to Pitch This to Your Examiner (The "Viva Strategy")
+Since your goal is to showcase engineering maturity for top-tier SWE/AI roles, do not present this as just a "data science project." Present it as a comprehensive data product. When the examiner asks you to explain the architecture, use this narrative:
+
+The Problem with Standard AI Projects: "Most academic projects focus on a single isolated model—like predicting if a patient has a disease. But in a real hospital, clinical risk and logistical resources are tied together. I built a dual-model architecture to solve both."
+
+The Micro-Level (XGBoost): "On the ground level, the XGBoost classifier handles real-time patient triage. It evaluates a patient's vitals and history instantly to flag readmission risk, acting as a clinical decision support tool for ER doctors."
+
+The Macro-Level (ARIMA): "On the executive level, the ARIMA time-series model looks at the hospital's historical occupancy data. It captures weekly seasonality to forecast bed shortages 7 days in advance. This allows administrators to preemptively reroute staff or elective surgeries before a crisis hits."
+
+The Conclusion: "Aegis bridges micro-level patient risk with macro-level resource forecasting in a single, production-ready Streamlit dashboard."
+
+
+
+
+REQUIRMENTS :-
+streamlit==1.32.0
+pandas==2.2.1
+numpy==1.26.4
+xgboost==2.0.3
+scikit-learn==1.4.1.post1
+statsmodels==0.14.1
+plotly==5.19.0
